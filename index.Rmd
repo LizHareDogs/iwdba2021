@@ -1,9 +1,9 @@
 ---
-title: "Presentation Title"
-subtitle: "Conference Name"
-authors: "Liz Hare, PhD"
+title: "Assessment of the Agreement between Fosters and Trainers Evaluating Behavior with the C-BARQ and Behavior Checklist"
+subtitle: "IWDBA 2021"
+author: Elizabeth Hare PhD 
 institute: ""
-date: "October 1, 2021"
+date: "October 12, 2021"
 output: 
   xaringan::moon_reader:
     seal: false # false removes YAML title slide
@@ -21,15 +21,15 @@ output:
 library(metathis)
 meta() %>%
   meta_general(
-    description = "Presentation Title",
+    description = "Assessment of the Agreement between Fosters and Trainers Evaluating Behavior with the C-BARQ and Behavior Checklist",
     generator = "xaringan and remark.js"
   ) %>% 
   # GitHub repo housing the slides for the talk
-  meta_name("github-repo" = "LizHareDogs/ConferenceTalkRepo") %>%
+  meta_name("github-repo" = "LizHareDogs/iwdba2021") %>%
   # metadata for the social card that appears when you share the link on social media
   meta_social(
-    title = "2021 Conference Name | Liz Hare, PhD",
-    url = "slide url",
+    title = "IWDBA 2021 | Elizabeth Hare, PhD",
+    url = "Assessment of the Agreement between Fosters and Trainers Evaluating Behavior with the C-BARQ and Behavior Checklist",
     image = "coverImageSlide.png",
     image_alt = "",
     og_type = "website",
@@ -144,148 +144,290 @@ width="250px"
 [`r fa("github", a11y="sem")` @LizHareDogs](https://github.com/LizHareDogs)<br>
 [`r fa("envelope", a11y="sem")` LizHare@DogGenetics.com](mailto:LizHare@DogGenetics.com)
 
-???
-Hello! My name is Liz Hare and I'm a Canine Genetics and Genomics Consultant.
+---
+# Sources for PennVet Working Dog Center Pups
 
-This slide uses:
-- the `inverse`, `middle`, and `center` slide classes
-- an image inserted with html
+.left_column[
+- Labrador Retriever breeding program
+    - One litter/year
+	
+- Breeder donations
+    -  Pups from litters with working parents and relatives
+	- Health standards for parents
+    - Herding and sporting breeds]
+	
+	.right-column[
+	8-week-old puppy photo?]
 
 ---
-background-image: url(img/avahi-cleesei.jpg)
-background-position: 150%, 50%
-background-size: contain
-
-.pull-left[
-# The Avahi cleesei lemur
-
-> A species of woolly lemur native to western Madagascar, [with] brown skin with white regions on the rear and inside of the thighs and has a short damp nose, large plate eyes, and ears which hardly stand out from the skin.
-
-
-.footnote[
-- Original source: [Bemahara woolly lemur | Wikipedia](https://en.wikipedia.org/wiki/Bemaraha_woolly_lemur)
-- Illustration by [Rachel Hudson](https://lemur.duke.edu/100-lemurs/)
-] <!--end of footnote-->
-
-] <!--end of pull left -->
-
-???
-This slide uses:
-- a background image
-- the `.pull-left[]` class
-- a horizontal bar
-- the `.footnote[]` class
-- bullet list with `*`
-- quotes with `>`
----
+# Puppy Development at the PennVet Working Dog Center
 
 .left-column[
-# Making lists
-] <!--end of left column -->
+- Pups live with foster families
+- Training begins ~8 weeks of age
+  - Obedience
+  - Agility
+  - Search]
+  
+  .right-column[
+  Photo of developing pup?]
+  
+---
+# Intensive Interaction and Observation
+.left-column[
+- Career choice based on
+  - Formal assessment
+  - Trainer observation
+- Career flaxibility contributes to very high success rate: 93%]
 
 .right-column[
-Some facts about **lemurs**
-
-1. Lemurs are considered _living fossils_ because they provide key clues about primate evolution
-
-1. Lemurs are endemic to only Madagascar
-
-1. 95% of lemur species are at risk of extinction
-
-
-.footnote[
-----
-Original source: [Duke Lemur Center](https://lemur.duke.edu/protect/overview-madagascar-conservation-programs/)
-] <!--end of footnote-->
-
-] <!--end of right column -->
-
-???
-This slide uses:
-- numbered list with `1.`
-- a horizontal bar
-- the `.footnote[]` class
+photo of puppy and trainer interacting?]
+---
+# Formal Assessments
+- Behavior questionnaires
+  - BCL (Behavior Checklist) is completed by trainer
+  - C-BARQ (Canine Behavioral and Research Questionnaire) is completed by foster
+- Behavior tests withsScoring
+  - Engagement
+  - Environment
 
 ---
-# Inserting images
+# C-BARQ
 
-.pull-left[
-
-### Lemurs are endemic to only Madagascar
-
-.footnote[
-Image from [Odyssey Travels](https://www.odyssey-travels.com/site/assets/maps/positive/madagascar.png)
-] <!--end of footnote -->
-
-] <!--end of pull left-->
-
-.pull-right[
-
-<!-- the image below is inserted using simple Markdown but I don't recommend inserting this way because you don't have control over the size of the image. In this case it fits the width of the "pull right" container just fine but the bottom runs off of the bottom edge of the slide. Using knitr::include_graphics() gives us much more control -->
-
-![Illustrated map of Madagascar with the Bemahara National Park highlighted on the Western-Central region of the island](img/madagascar.png)
-
-] <!--end of pull right -->
-
-???
-This slide uses:
-- two different heading sizes: `#` and `##`
-- an image and accompanying alternative text inserted with `![]()`
-- `.pull-left[]` and `.pull-right[]` classes
-- the `.footnote[]` class
+- 100 items
+- Most items cluster into one of 14 subscales
+- Some miscellaneous items do not cluster
+- Problem behaviors, except trainability
 
 ---
-# Tables
+# C-BARQ Scoring
 
-The `lemur_data` dataset contains life histories for a variety of lemurs housed at the [Duke Lemur Center](https://lemur.duke.edu/about/history-mission/) in North Carolina, USA.
+``` {r, table describing C-BARQ scoring, results="asis", echo=FALSE}
+Score <- c(0, 1, 2, 3, 4)
+Frequency <- c("Never", "Seldom", "Sometimes", "Usually", "Always")
+Intensity <-  c("None", "Mild", "Moderate", "?", "Extreme")
+tabCscore <- data.frame(Score, Frequency, Intensity)
+tabCscoreK <- kableExtra::kbl(tabCscore, caption="Behaviors Rated on Frequency and Intensity")
+kableExtra::kable_styling(tabCscoreK, full_width=FALSE)
+```  
 
-<!-- this slide includes an HTML table with knitr::kable() and it takes up the entire width of the text area of the slide and ends right above the footnote -->
+Each subscale score is the mean of the items in the subscale. 
 
-```{r lemur-births, echo=FALSE}
-knitr::kable(head(lemurs[,1:8],5), format = 'html')
+Subscale scores were considered missing when less than 70% of items had responses
+
+---
+
+# BCL
+
+- 43 individual items
+- no clusters
+- most BCL items overlap with C-BARQ subscales
+
+---
+
+# BCL Scoring
+
+``` {r, BCL scoring, results="asis", echo=FALSE}
+
+bScore <- c(0, 1, 2, 3, 4)
+bIntensity <- c("Absent", "Very Mild", "Mild", "Moderate", "Severe")
+tabBscore <- data.frame(bScore, bIntensity)
+colnames(tabBscore) <- c("Score", "Intensity")
+tabBscoreK <- kableExtra::kbl(tabBscore, caption="Behaviors Rated on Intensity")
+kableExtra::kable_styling(tabBscoreK, full_width=FALSE)
 ```
 
-.footnote[
-Data source: [Duke Lemur Center Data | Kaggle](https://www.kaggle.com/jessemostipak/duke-lemur-center-data)
-] <!--end of footnote-->
-
-???
-This slide uses:
-- an R code chunk to produce the HTML table
-- the `.footnote[]` class
-
 ---
-# Highlighting code
+# Dogs
 
-`> Inline code is differentiated by a monospace font face`
+.left-col-wide[
+Assigned to age group categories:
+- up to 9 months
+- 9 months to 2 years
+- 2 years and up
 
-You can highlight lines of code within code chunks using `#<<`. This adds a light gold background to the highlighted line of code, like to the `geom_histogram()` line in the example code chunk below:
-
-```r
-lemurs %>% filter(birth_type != "unknown") %>%
-  ggplot(aes(x = dob, fill = birth_type)) +
-  geom_histogram() +              #<<
-  minimal_theme()
+Randomly retained one of each assessment per dog per age category[
+``` {r, ageDemo, results="asis", echo=FALSE}
+ag <- c("Up to 9 mo", "9 mo to 2 y", "Over 2 y")
+ct <- c(39, 64, 5)
+tabCount <- data.frame(ag, ct)
+colnames(tabCount) <- c("Age Category", "N")
+tabCountK <- kableExtra::kbl(tabCount)
+kableExtra::kable_styling(tabCountK)
 ```
-
-???
-This slide uses:
-- inline code highlighting with backticks ` `` `
-- a code chunk to produce a ggplot
-
+]
 ---
 
-<!-- this slide creates a plot with a code chunk and that takes up the entire slide area -->
+# BCL - C-BARQ Correlations
 
-```{r, eval=TRUE, echo=FALSE, fig.height=8, fig.width=14, fig.alt="Histogram of unique lemur births between 1975 and 2019 showing more births took place in captivity than in the wild, with most births concentrated between 1975 and 2000. Births in the wild peaked near 1985 at almost 300 births and again near 2012 at about 100 births. Births in captivity had a plateau between 1980 and 1985 at about 25 births"}
-lemurs %>% filter(birth_type != "unknown") %>%
-  ggplot(aes(x = dob, fill = birth_type)) +
-  geom_histogram() +
-  theme_minimal() +
-  # the following two xaringanthemer functions are only available for ggplot2, but they change the plot text and/or colors to match the xaringan theme
-  theme_xaringan() +
-  scale_xaringan_fill_discrete() 
+
+
+How closely do BCL and C-BARQ scores correlate?
+
+Two analyses of Spearman correlation with Holm adjustment for multiple testing
+1. BCL and C-BARQ subscales
+2. BCL and C-BARQ individual items
+
+
+
+
+---
+# BCL items and C-BARQ subscales: Correlations
+
+
+``` {r, tabSubscale, results="asis", echo=FALSE}
+c1 <- c("Stranger-directed aggression",
+        "Stranger-directed aggression",
+        "Resource guarding around dogs")
+c2 <- c("Stranger-directed aggression",
+        "Dog-directed aggression",
+        "Dog-directed aggression")
+c3 <- c(0.49, 0.42, 0.46)
+c4 <- c("< 0.001", "< 0.05", "< 0.05")
+tabSubscale <- data.frame(c1, c2, c3, c4)
+colnames(tabSubscale) <- c("BCL", "C-BARQ", "rho", "p")
+tabSubscaleK <- kableExtra::kbl(tabSubscale)
+kableExtra::kable_styling(tabSubscaleK, full_width=FALSE)
 ```
+
+---
+# BCL and C-BARQ Items: Dog-directed Aggression
+
+``` {r, dogAggr, results="asis", echo=FALSE}
+ load("data/sigCorItems.Rda")
+
+sigDogAgg <- sigCorDisplay[sigCorDisplay$subscale == "Dog-directed Aggression", ]
+sigStrAgg <- sigCorDisplay[sigCorDisplay$subscale == "Stranger-directed Aggression", ]
+sigTouch <- sigCorDisplay[sigCorDisplay$subscale == "Touch Sensitivity", ]
+
+
+sigDogAgg <- sigDogAgg[ ,c("Parameter1", "Parameter2", "rho", "p")]
+sigDogAgg$cb <- c("Aggression when approached directly by an unfamiliar male dog while being walked/exercised on a leash",
+                  "Aggression when approached directly by an unfamiliar female dog while being walked/exercised on a leash",
+                  "Aggression when barked, growled, or lunged at by another (unfamiliar) dog",
+                  "Aggression when approached directly by an unfamiliar female dog while being walked/exercised on a leash",
+                  "Aggression when barked, growled, or lunged at by another (unfamiliar) dog")
+sigDogAgg$Parameter1[sigDogAgg$Parameter1 == "aggrDogN"] <- "Dog-directed aggression"
+sigDogAgg$Parameter1[sigDogAgg$Parameter1 == "resourceGuardDogN"] <- "Resource guarding around dogs"
+
+tabDogAgg <- sigDogAgg[ , c("Parameter1", "cb", "rho", "p")]
+colnames(tabDogAgg) <- c("BCL", "C-BARQ", "rho", "p")
+tabDogAggK <- kableExtra::kbl(tabDogAgg, row.names=FALSE, digits=c(0, 0, 2, 4))
+kableExtra::kable_styling(tabDogAggK)
+```
+
+---
+# 
+
+# BCL and C-BARQ Items: Stranger-directed Aggression
+
+``` {r, strAgg, results="asis", echo=FALSE}
+sigStrAgg <- sigStrAgg[ ,c("Parameter1", "Parameter2", "rho", "p")]
+sigStrAgg$cb <- c("Aggression when approached directly by an unfamiliar adult while being walked/exercised on a leash",
+                  "When approached directly by an unfamiliar child while being walked/exercised on a leash",
+                  "Aggression when approached directly by an unfamiliar adult while being walked/exercised on a leash")
+                  
+sigStrAgg$Parameter1[sigStrAgg$Parameter1 == "fearStrangerN"] <- "Stranger-directed fear"
+sigStrAgg$Parameter1[sigStrAgg$Parameter1 == "aggrStrangerN"] <- "Stranger-directed aggression"
+
+tabDogAgg <- sigStrAgg[ , c("Parameter1", "cb", "rho", "p")]
+colnames(tabDogAgg) <- c("BCL", "C-BARQ", "rho", "p")
+tabDogAggK <- kableExtra::kbl(tabDogAgg, row.names=FALSE, digits=c(0, 0, 2, 4))
+kableExtra::kable_styling(tabDogAggK)
+```
+
+---
+
+# BCL and C-BARQ Items: Touch Sensitivity
+
+``` {r, touch, results="asis", echo=FALSE}
+sigTouch <- sigTouch[ ,c("Parameter1", "Parameter2", "rho", "p")]
+sigTouch$cb <- c("Fear when having nails clipped by a household member")
+sigTouch$Parameter1[sigTouch$Parameter1 == "retreatsReachedN"] <- "Retreats when reached for"
+
+tabDogAgg <- sigTouch[ , c("Parameter1", "cb", "rho", "p")]
+colnames(tabDogAgg) <- c("BCL", "C-BARQ", "rho", "p")
+tabDogAggK <- kableExtra::kbl(tabDogAgg, row.names=FALSE, digits=c(0, 0, 2, 4))
+kableExtra::kable_styling(tabDogAggK)
+```
+
+---
+
+# Behaviors with No Correlation
+
+.left-column[
+- Trainability
+- Inter-dog rivalry
+- Chasing
+- Excitability
+- Attention-seeking
+- Energy]
+.right-column[
+- Owner-directed aggression
+- Dog-directed fear
+- Stranger-directed fear
+- Non-social fear]
+
+---
+
+# Why don't we find high correlations?
+
+"Dogs behave differently at home and at the Center" ----Dr. Cindy Otto
+
+.left-column[
+Let's find a picture of a snoozy dog at home]
+
+.right-column[
+Let's find a picture of an active dog doing agility or something]
+---
+
+# Why don't we find high correlations?
+
+- Fosters and trainers have different experience and expectations
+- C-BARQ items are more specific
+
+
+---
+
+# Limitations
+
+- Data incomplete for early years
+- Difficulty correlating aggression, fear, and touch sensitivity to success because of high success rate
+   - Dogs have potential to fail or be successful in more than one category
+   - Confounding between career chosen for dogs and trainers' assessments
+   
+---
+
+# What's next?
+
+Development of working dog specific C-BARQ
+
+Other factors affecting behavior 
+- Breed
+- Sex
+- Discipline (detection, search, patrol)
+
+
+Dog photo?
+
+
+---
+# Thank You
+
+.left-column[
+PennVet Working Dog Center
+- Trainers
+- Foster families
+
+
+IWDBA 2021 Organizing and Scientific Committees
+
+Slide theme by [Dr. Silvia Canelón](https://silvia.rbind.io)]
+
+.right-column[
+sleepy or self-satisfied puppy photo?]
+
+
 
 ???
 This slide uses:
@@ -326,3 +468,4 @@ You can find my contact information linked on this slide if you want to get in t
 This slide contains
 - `.pull-left[]` and `.pull-right[]` classes
 - `.right[]` class
+
