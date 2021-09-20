@@ -147,7 +147,7 @@ width="250px"
 ---
 # Sources for PennVet Working Dog Center Pups
 
-.left_column[
+.pull-left[
 - Labrador Retriever breeding program
     - One litter/year
 	
@@ -156,31 +156,32 @@ width="250px"
 	- Health standards for parents
     - Herding and sporting breeds]
 	
-.right-column[
+.pull-right[
 	8-week-old puppy photo?]
 
 ---
 # Puppy Development at the PennVet Working Dog Center
 
-.left-column[
+.pull-left[
 - Pups live with foster families
 - Training begins ~8 weeks of age
   - Obedience
   - Agility
   - Search]
   
-  .right-column[
+  .pull-right[
   Photo of developing pup?]
   
 ---
 # Intensive Interaction and Observation
-.left-column[
+
+.pull-left[
 - Career choice based on
   - Formal assessment
   - Trainer observation
-- Career flaxibility contributes to very high success rate: 93%]
+- Career flexibility contributes to very high success rate: 93%]
 
-.right-column[
+.pull-right[
 photo of puppy and trainer interacting?]
 ---
 # Formal Assessments
@@ -240,13 +241,15 @@ kableExtra::kable_styling(tabBscoreK, full_width=FALSE)
 ---
 # Dogs
 
-.left-col-wide[
+.pull-left[
 Assigned to age group categories:
 - up to 9 months
 - 9 months to 2 years
 - 2 years and up
 
-Randomly retained one of each assessment per dog per age category[
+Randomly retained one of each assessment per dog per age category]
+
+.pull-right[
 ``` {r, ageDemo, results="asis", echo=FALSE}
 ag <- c("Up to 9 mo", "9 mo to 2 y", "Over 2 y")
 ct <- c(39, 64, 5)
@@ -355,14 +358,15 @@ kableExtra::kable_styling(tabDogAggK)
 
 # Behaviors with No Correlation
 
-.left-column[
+.pull-left[
 - Trainability
 - Inter-dog rivalry
 - Chasing
 - Excitability
 - Attention-seeking
 - Energy]
-.right-column[
+
+.pull-right[
 - Owner-directed aggression
 - Dog-directed fear
 - Stranger-directed fear
@@ -374,10 +378,10 @@ kableExtra::kable_styling(tabDogAggK)
 
 "Dogs behave differently at home and at the Center" ----Dr. Cindy Otto
 
-.left-column[
+.pull-left[
 Let's find a picture of a snoozy dog at home]
 
-.right-column[
+.pull-right[
 Let's find a picture of an active dog doing agility or something]
 ---
 
