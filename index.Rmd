@@ -156,7 +156,7 @@ width="250px"
 	- Health standards for parents
     - Herding and sporting breeds]
 	
-	.right-column[
+.right-column[
 	8-week-old puppy photo?]
 
 ---
@@ -207,7 +207,7 @@ Score <- c(0, 1, 2, 3, 4)
 Frequency <- c("Never", "Seldom", "Sometimes", "Usually", "Always")
 Intensity <-  c("None", "Mild", "Moderate", "?", "Extreme")
 tabCscore <- data.frame(Score, Frequency, Intensity)
-tabCscoreK <- kableExtra::kbl(tabCscore, caption="Behaviors Rated on Frequency and Intensity")
+tabCscoreK <- kableExtra::kbl(tabCscore, caption="Behaviors Rated 0 to 4 on either Frequency or Intensity")
 kableExtra::kable_styling(tabCscoreK, full_width=FALSE)
 ```  
 
@@ -233,7 +233,7 @@ bScore <- c(0, 1, 2, 3, 4)
 bIntensity <- c("Absent", "Very Mild", "Mild", "Moderate", "Severe")
 tabBscore <- data.frame(bScore, bIntensity)
 colnames(tabBscore) <- c("Score", "Intensity")
-tabBscoreK <- kableExtra::kbl(tabBscore, caption="Behaviors Rated on Intensity")
+tabBscoreK <- kableExtra::kbl(tabBscore, caption="Behaviors Rated 0 to 4 on Intensity")
 kableExtra::kable_styling(tabBscoreK, full_width=FALSE)
 ```
 
