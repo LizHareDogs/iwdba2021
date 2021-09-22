@@ -379,7 +379,10 @@ kableExtra::kable_styling(tabDogAggK)
 "Dogs behave differently at home and at the Center" ----Dr. Cindy Otto
 
 .pull-left[
-Let's find a picture of a snoozy dog at home]
+``` {r, VaukBobHammock, fig.cap="A laughing man is lying on his back in a hammock next to a squiggly black lab, paws in the air, head so far back only the underside of the jaw is visible."}
+knitr::include_graphics("img/VaukBobHammock.jpg")
+```
+]
 
 .pull-right[
 Let's find a picture of an active dog doing agility or something]
