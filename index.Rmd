@@ -54,7 +54,7 @@ style_duo_accent_inverse(
   header_h1_font_size = "2.25rem",
   header_h2_font_size = "2.0rem",
   header_h3_font_size = "1.75rem",
-  link_decoration = "underline 3px",
+  link_decoration = "underline",
   table_row_even_background_color = "#313C54", # lighter navy color
   inverse_link_color = "#14213D", # dark navy blue color
   code_highlight_color = "#ECECCE", # beige color
