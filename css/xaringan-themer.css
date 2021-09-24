@@ -18,18 +18,18 @@
  *  Version: 0.4.0
  *
  * ------------------------------------------------------- */
-@import url(https://fonts.googleapis.com/css?family=Atkinson+Hyperlegible&display=swap);
-@import url(https://fonts.googleapis.com/css?family=Atkinson+Hyperlegible&display=swap);
+@import url(https://fonts.googleapis.com/css?family=Red+Hat+Text&display=swap);
+@import url(https://fonts.googleapis.com/css?family=Red+Hat+Text&display=swap);
 @import url(https://fonts.googleapis.com/css?family=Source+Code+Pro:400,700&display=swap);
 
 
 :root {
   /* Fonts */
-  --text-font-family: 'Atkinson Hyperlegible';
+  --text-font-family: 'Red Hat Text';
   --text-font-is-google: 1;
   --text-font-family-fallback: -apple-system, BlinkMacSystemFont, avenir next, avenir, helvetica neue, helvetica, Ubuntu, roboto, noto, segoe ui, arial;
   --text-font-base: sans-serif;
-  --header-font-family: 'Atkinson Hyperlegible';
+  --header-font-family: 'Red Hat Text';
   --header-font-is-google: 1;
   --header-font-family-fallback: Georgia, serif;
   --code-font-family: 'Source Code Pro';
@@ -114,7 +114,7 @@ strong {
 }
 a, a > code {
   color: var(--link-color);
-  text-decoration: underline;
+  text-decoration: underline 3px;
 }
 .footnote {
   position: absolute;

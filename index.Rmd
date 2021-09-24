@@ -1,6 +1,6 @@
 ---
 title: "Assessment of the Agreement between Fosters and Trainers Evaluating Behavior with the C-BARQ and Behavior Checklist"
-subtitle: "IWDBA 2021"
+subtitle: "IWDC 2021"
 author: Elizabeth Hare PhD 
 institute: ""
 date: "October 12, 2021"
@@ -54,16 +54,16 @@ style_duo_accent_inverse(
   header_h1_font_size = "2.25rem",
   header_h2_font_size = "2.0rem",
   header_h3_font_size = "1.75rem",
-  link_decoration = "underline",
+  link_decoration = "underline 3px",
   table_row_even_background_color = "#313C54", # lighter navy color
   inverse_link_color = "#14213D", # dark navy blue color
   code_highlight_color = "#ECECCE", # beige color
   header_background_content_padding_top = "5rem",
   footnote_position_bottom = "40px",
   outfile = "css/xaringan-themer.css",
-  text_font_family = "Atkinson Hyperlegible",
-  text_font_google = google_font("Atkinson Hyperlegible"),
-  header_font_google = google_font("Atkinson Hyperlegible"),
+  text_font_family = "Red Hat Text",
+  text_font_google = google_font("Red Hat Text"),
+  header_font_google = google_font("Red Hat Text"),
   extra_css = list(
     # the following css styles the horizontal bars
     "hr" = list("color" = "#C6B78A",
@@ -111,26 +111,33 @@ knitr::opts_chunk$set(collapse = TRUE,
                       fig.align = "center")
 ```
 
-
-```{r data-import}
-lemurs <- readRDS("data/lemurs.rds")
-```
-
-class: bottom, title
-background-image: url(img/ben2.jpg)
-background-position: 95% 10%
-background-size: 200px
+class: top, title
 
 <!-- this slide has the Dog Genetics, LLC logo in the top right corner, added using the "background" image classes above. The text begins on the bottom left corner of the slide -->
 
-# `r rmarkdown::metadata$title`
-## `r rmarkdown::metadata$subtitle`
+.left-col-narrow[.center[
+<br>
+<!--inserting the IWDBA logo that links to the IWDC 2021 page-->
+<a href="https://www.iwdba.org/event/iwdc-2021/"><img src="img/iwdbaLogo.png" alt="International Working Dog Breeding Association" width="80%"/></a>
+.titleConf[`r rmarkdown::metadata$subtitle`]
+]]
 
-### `r rmarkdown::metadata$author`<br>@DogGeneticsLLC `r fa("twitter", a11y="sem")`
+.right-col-wide[
+.left[
+# `r rmarkdown::metadata$title`
+<!--inserting a horizontal bar for aesthetic appeal -->
+
+----
+]]
+
+.titleAuthor[
+`r rmarkdown::metadata$author`<br>@DogGeneticsLLC `r fa("twitter", a11y="sem")`
+]
 
 ---
-class: middle, center
+class: bottom, center
 
+.pull-left[
 <img style="border-radius: 50%;" 
 src="img/Profile_LH.jpg"
 alt=""
@@ -143,6 +150,25 @@ width="250px"
 [`r fa("twitter", a11y="sem")` @DogGeneticsLLC](https://twitter.com/DogGeneticsLLC)<br>
 [`r fa("github", a11y="sem")` @LizHareDogs](https://github.com/LizHareDogs)<br>
 [`r fa("envelope", a11y="sem")` LizHare@DogGenetics.com](mailto:LizHare@DogGenetics.com)
+]<!--end of pull left-->
+
+.pull-right[
+
+## Collaborators
+
+.large[Person 1]
+
+Person 1 affiliations
+
+.large[Person 2] 
+
+Person 2 affiliations
+
+.large[Person 3]
+
+Person 3 affiliations
+
+] <!--end of pull right-->
 
 ---
 # Sources for PennVet Working Dog Center Pups

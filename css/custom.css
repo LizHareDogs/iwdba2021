@@ -6,6 +6,62 @@
   display:           none;
 }
 
+/* a class that removes slide number on any other page provided you specify the .no-slide-number class at the start of the slide */
 .no-slide-number .remark-slide-number {
   display: none;
 }
+
+/* moves Dog Genetics LLC logo into the title slide class */
+.title {
+  background-image: url(../img/ben2.jpg);
+  background-position: 93% 88%;
+  background-size: 150px;
+}
+
+/* class that styles the conference name */
+.titleConf {
+  font-size: 1.3rem;
+  font-weight: 600;
+}
+
+/* class that styles the Author information */
+.titleAuthor {
+  font-size: 1.75rem;
+  font-weight: 600;
+  color: #C6B78A;
+  text-align: right;
+  margin-top: 520px;
+  margin-right: 200px;
+  padding: none;
+}
+
+/* layout classes to use in the title slide: narrow left, wide right */
+
+.left-col-narrow {
+  float: left;
+  width: 20%;
+}
+
+.right-col-wide {
+  float: right;
+  width: 75%;
+}
+
+.right-col-wide + * {
+  clear: both;
+}
+
+/* class for text styled like heading 3 but that doesn't take up as much space */
+
+.large {
+  color: #C6B78A;
+  font-size: 1.75rem;
+  font-weight: 600;
+}
+
+/* style headings */
+
+h1, h2, h3, p {
+  line-height: 1.25em;
+}
+
