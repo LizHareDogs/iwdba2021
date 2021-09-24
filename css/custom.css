@@ -58,3 +58,10 @@
   font-size: 1.75rem;
   font-weight: 600;
 }
+
+/* style headings */
+
+h1, h2, h3, p {
+  line-height: 1.25em;
+}
+

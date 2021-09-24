@@ -54,16 +54,16 @@ style_duo_accent_inverse(
   header_h1_font_size = "2.25rem",
   header_h2_font_size = "2.0rem",
   header_h3_font_size = "1.75rem",
-  link_decoration = "underline",
+  link_decoration = "underline 3px",
   table_row_even_background_color = "#313C54", # lighter navy color
   inverse_link_color = "#14213D", # dark navy blue color
   code_highlight_color = "#ECECCE", # beige color
   header_background_content_padding_top = "5rem",
   footnote_position_bottom = "40px",
   outfile = "css/xaringan-themer.css",
-  text_font_family = "Atkinson Hyperlegible",
-  text_font_google = google_font("Atkinson Hyperlegible"),
-  header_font_google = google_font("Atkinson Hyperlegible"),
+  text_font_family = "Red Hat Text",
+  text_font_google = google_font("Red Hat Text"),
+  header_font_google = google_font("Red Hat Text"),
   extra_css = list(
     # the following css styles the horizontal bars
     "hr" = list("color" = "#C6B78A",
