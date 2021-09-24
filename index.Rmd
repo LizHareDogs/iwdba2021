@@ -1,6 +1,6 @@
 ---
 title: "Assessment of the Agreement between Fosters and Trainers Evaluating Behavior with the C-BARQ and Behavior Checklist"
-subtitle: "IWDBA 2021"
+subtitle: "IWDC 2021"
 author: Elizabeth Hare PhD 
 institute: ""
 date: "October 12, 2021"
@@ -111,22 +111,28 @@ knitr::opts_chunk$set(collapse = TRUE,
                       fig.align = "center")
 ```
 
-
-```{r data-import}
-lemurs <- readRDS("data/lemurs.rds")
-```
-
-class: bottom, title
-background-image: url(img/ben2.jpg)
-background-position: 95% 10%
-background-size: 200px
+class: top, title
 
 <!-- this slide has the Dog Genetics, LLC logo in the top right corner, added using the "background" image classes above. The text begins on the bottom left corner of the slide -->
 
-# `r rmarkdown::metadata$title`
-## `r rmarkdown::metadata$subtitle`
+.left-col-narrow[.center[
+<br>
+<!--inserting the IWDBA logo that links to the IWDC 2021 page-->
+<a href="https://www.iwdba.org/event/iwdc-2021/"><img src="img/iwdbaLogo.png" alt="International Working Dog Breeding Association" width="80%"/></a>
+.titleConf[`r rmarkdown::metadata$subtitle`]
+]]
 
-### `r rmarkdown::metadata$author`<br>@DogGeneticsLLC `r fa("twitter", a11y="sem")`
+.right-col-wide[
+.left[
+# `r rmarkdown::metadata$title`
+<!--inserting a horizontal bar for aesthetic appeal -->
+
+----
+]]
+
+.titleAuthor[
+`r rmarkdown::metadata$author`<br>@DogGeneticsLLC `r fa("twitter", a11y="sem")`
+]
 
 ---
 class: middle, center
