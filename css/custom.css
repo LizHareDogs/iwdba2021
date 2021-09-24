@@ -50,3 +50,11 @@
 .right-col-wide + * {
   clear: both;
 }
+
+/* class for text styled like heading 3 but that doesn't take up as much space */
+
+.large {
+  color: #C6B78A;
+  font-size: 1.75rem;
+  font-weight: 600;
+}

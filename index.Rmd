@@ -135,8 +135,9 @@ class: top, title
 ]
 
 ---
-class: middle, center
+class: bottom, center
 
+.pull-left[
 <img style="border-radius: 50%;" 
 src="img/Profile_LH.jpg"
 alt=""
@@ -149,6 +150,25 @@ width="250px"
 [`r fa("twitter", a11y="sem")` @DogGeneticsLLC](https://twitter.com/DogGeneticsLLC)<br>
 [`r fa("github", a11y="sem")` @LizHareDogs](https://github.com/LizHareDogs)<br>
 [`r fa("envelope", a11y="sem")` LizHare@DogGenetics.com](mailto:LizHare@DogGenetics.com)
+]<!--end of pull left-->
+
+.pull-right[
+
+## Collaborators
+
+.large[Person 1]
+
+Person 1 affiliations
+
+.large[Person 2] 
+
+Person 2 affiliations
+
+.large[Person 3]
+
+Person 3 affiliations
+
+] <!--end of pull right-->
 
 ---
 # Sources for PennVet Working Dog Center Pups
