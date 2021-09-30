@@ -193,13 +193,13 @@ knitr::include_graphics("img/IMG_5840.jpeg")
 .pull-left[
 - Pups live with foster families
 - Training begins ~8 weeks of age
-  - [Fit to Work](https://www.frontiersin.org/articles/10.3389/fvets.2020.00470/full)g	
+  - [Fit to Work](https://www.frontiersin.org/articles/10.3389/fvets.2020.00470/full)
   - Obedience
   - Agility
   - Search]
   
   .pull-right[
-``` {r, bretagne, fig.alt="A reddish Golden is lying in sphinx position on a large rectangular trampoline in a big room.  Its front paws are resting on an open book, and the position of the dog’s head makes it look like it is reading.  There are several other books piled on the floor around the trampoline.", out.height="90%"}
+``` {r, bretagne, fig.alt="A reddish Golden is lying in sphinx position on a large rectangular trampoline in a big room.  Its front paws are resting on an open book, and the position of the dog’s head makes it look like it is reading.  There are several other books piled on the floor around the trampoline.", out.width="90%"}
 knitr::include_graphics("img/BretBooks.png")
 ```
 ]
