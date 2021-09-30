@@ -182,7 +182,7 @@ knitr::include_graphics("img/PV Working Dog Center Logo-tshirt.jpg")
     - Herding and sporting breeds]
 	
 .pull-right[
-``` {r,babyBlackLab, fig.alt="An ADORABLE baby black lab gnaws on a green and purple chew toy, looking up at the camera at an angle.  It is in a crate outdoors sitting on grass.", out.width="90%"}
+``` {r,babyBlackLab, fig.alt="An ADORABLE baby black lab gnaws on a green and purple chew toy, looking up at the camera at an angle.  It is in a crate outdoors sitting on grass.", out.width="70%"}
 knitr::include_graphics("img/IMG_5840.jpeg")
 ```
 ]
@@ -199,7 +199,7 @@ knitr::include_graphics("img/IMG_5840.jpeg")
   - Search]
   
   .pull-right[
-``` {r, bretagne, fig.alt="A reddish Golden is lying in sphinx position on a large rectangular trampoline in a big room.  Its front paws are resting on an open book, and the position of the dog’s head makes it look like it is reading.  There are several other books piled on the floor around the trampoline.", out.width="90%"}
+``` {r, bretagne, fig.alt="A reddish Golden is lying in sphinx position on a large rectangular trampoline in a big room.  Its front paws are resting on an open book, and the position of the dog’s head makes it look like it is reading.  There are several other books piled on the floor around the trampoline.", out.width="70%"}
 knitr::include_graphics("img/BretBooks.png")
 ```
 ]
@@ -414,13 +414,13 @@ kableExtra::kable_styling(tabDogAggK)
 "Dogs behave differently at home and at the Center" ----Dr. Cindy Otto
 
 .pull-left[
-``` {r, VaukBobHammock, fig.alt="A laughing man is lying on his back in a hammock next to a squiggly black lab, paws in the air, head so far back only the underside of the jaw is visible.", out.width="90%"}
+``` {r, VaukBobHammock, fig.alt="A laughing man is lying on his back in a hammock next to a squiggly black lab, paws in the air, head so far back only the underside of the jaw is visible.", out.width="70%"}
 knitr::include_graphics("img/VaukBobHammock.jpg")
 ```
 ]
 
 .pull-right[
-``` {r, LabFind, fig.alt="A yellow lab stands on the ground, mouth open, eyes squeezed shut, head thrown back, baying, with front paws up on a cement platform in what looks like a junkyard, as the camera looks down, askew, from above.  Perhaps the photographer is standing on the platform?", out.width="90%"}
+``` {r, LabFind, fig.alt="A yellow lab stands on the ground, mouth open, eyes squeezed shut, head thrown back, baying, with front paws up on a cement platform in what looks like a junkyard, as the camera looks down, askew, from above.  Perhaps the photographer is standing on the platform?", out.width="70%"}
 knitr::include_graphics("img/sam_9261.jpg")
 ```
 ]
