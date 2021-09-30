@@ -140,7 +140,7 @@ class: bottom, center
 .pull-left[
 <img style="border-radius: 50%;" 
 src="img/Profile_LH.jpg"
-alt=""
+alt="Photo of L iz Hare with an elderly Golden Retriever and a young Labrador Retriever in harness"
 width="250px"
 />
 
@@ -154,7 +154,7 @@ width="250px"
 
 .pull-right[
 
-``` {r, PVWDClogo, fig.alt="Working Dog Center Logo with University of Pennsylvania shield on the left next to two lines of text: 'PennVet' and 'Working Dog Center'"}
+``` {r, PVWDClogo, fig.alt="Working Dog Center Logo with University of Pennsylvania shield on the left next to two lines of text: 'PennVet' and 'Working Dog Center'", out.width="90%"}
 knitr::include_graphics("img/PV Working Dog Center Logo-tshirt.jpg")
 ```
 
@@ -182,7 +182,7 @@ knitr::include_graphics("img/PV Working Dog Center Logo-tshirt.jpg")
     - Herding and sporting breeds]
 	
 .pull-right[
-``` {r,babyBlackLab, fig.alt="An ADORABLE baby black lab gnaws on a green and purple chew toy, looking up at the camera at an angle.  It is in a crate outdoors sitting on grass."}
+``` {r,babyBlackLab, fig.alt="An ADORABLE baby black lab gnaws on a green and purple chew toy, looking up at the camera at an angle.  It is in a crate outdoors sitting on grass.", out.width="90%"}
 knitr::include_graphics("img/IMG_5840.jpeg")
 ```
 ]
@@ -193,12 +193,13 @@ knitr::include_graphics("img/IMG_5840.jpeg")
 .pull-left[
 - Pups live with foster families
 - Training begins ~8 weeks of age
+  - [Fit to Work](https://www.frontiersin.org/articles/10.3389/fvets.2020.00470/full)g	
   - Obedience
   - Agility
   - Search]
   
   .pull-right[
-``` {r, bretagne, fig.alt="A reddish Golden is lying in sphinx position on a large rectangular trampoline in a big room.  Its front paws are resting on an open book, and the position of the dog’s head makes it look like it is reading.  There are several other books piled on the floor around the trampoline."}
+``` {r, bretagne, fig.alt="A reddish Golden is lying in sphinx position on a large rectangular trampoline in a big room.  Its front paws are resting on an open book, and the position of the dog’s head makes it look like it is reading.  There are several other books piled on the floor around the trampoline.", out.width="90%"}
 knitr::include_graphics("img/BretBooks.png")
 ```
 ]
@@ -212,7 +213,7 @@ knitr::include_graphics("img/BretBooks.png")
 - Career flexibility contributes to very high success rate: 93%]
 
 .pull-right[
-``` {r, agilityInteraction, fig.alt="In a large room there are two red utility ladders with a plank resting on them approximately 4ft above the ground.  A straight ladder is resting on the plank, at an angle.  A black lab is standing on the plank, looking the camera as a blond woman with short hair and glasses on top of her head, smiles up at the dog. The ladders have “Penn Vet Working Dog Center” bumper stickers stuck on the uprights."}
+``` {r, agilityInteraction, fig.alt="In a large room there are two red utility ladders with a plank resting on them approximately 4ft above the ground.  A straight ladder is resting on the plank, at an angle.  A black lab is standing on the plank, looking the camera as a blond woman with short hair and glasses on top of her head, smiles up at the dog. The ladders have “Penn Vet Working Dog Center” bumper stickers stuck on the uprights.", out.width="90%"}
 knitr::include_graphics("img/IMG_6611.JPG")
 ```
 ]
@@ -413,13 +414,13 @@ kableExtra::kable_styling(tabDogAggK)
 "Dogs behave differently at home and at the Center" ----Dr. Cindy Otto
 
 .pull-left[
-``` {r, VaukBobHammock, fig.alt="A laughing man is lying on his back in a hammock next to a squiggly black lab, paws in the air, head so far back only the underside of the jaw is visible."}
+``` {r, VaukBobHammock, fig.alt="A laughing man is lying on his back in a hammock next to a squiggly black lab, paws in the air, head so far back only the underside of the jaw is visible.", out.width="90%"}
 knitr::include_graphics("img/VaukBobHammock.jpg")
 ```
 ]
 
 .pull-right[
-``` {r, LabFind, fig.alt="A yellow lab stands on the ground, mouth open, eyes squeezed shut, head thrown back, baying, with front paws up on a cement platform in what looks like a junkyard, as the camera looks down, askew, from above.  Perhaps the photographer is standing on the platform?"}
+``` {r, LabFind, fig.alt="A yellow lab stands on the ground, mouth open, eyes squeezed shut, head thrown back, baying, with front paws up on a cement platform in what looks like a junkyard, as the camera looks down, askew, from above.  Perhaps the photographer is standing on the platform?", out.width="90%"}
 knitr::include_graphics("img/sam_9261.jpg")
 ```
 ]
@@ -453,7 +454,7 @@ Other factors affecting behavior
 - Discipline (detection, search, patrol)]
 
 .pull-right[
-``` {r, pointyFind, fig.alt="A yellow dog with dark eyebrows and muzzle edges peers down at the camera from above, through a crack between rough splintery slats (possibly a produce crate or pallet?) Most visible are the dark nostrils of the snout, and the brown eyes behind. Sunlight slants in across the dark slats at a steep angle. The ends of more pieces of wood are visible behind the dog. (Is this a SAR scenario?)"}
+``` {r, pointyFind, fig.alt="A yellow dog with dark eyebrows and muzzle edges peers down at the camera from above, through a crack between rough splintery slats (possibly a produce crate or pallet?) Most visible are the dark nostrils of the snout, and the brown eyes behind. Sunlight slants in across the dark slats at a steep angle. The ends of more pieces of wood are visible behind the dog. (Is this a SAR scenario?)", out.width="90%"}
 knitr::include_graphics("img/CANTF3ontarioCanine.jpg")
 ```
 ]
@@ -477,7 +478,7 @@ Alt-text descriptions by Dr. Angela Baldo
 ]
 
 .pull-right[
-``` {r, Vlitter, fig.alt="A row of eight young black labs, each wearing a different brightly colored collar, sit facing the camera.  There is slight variation among the dogs, in height and body shape. Out of focus landscape is in the background.  The foreground is also out of focus.  Only the dogs are in focus."}
+``` {r, Vlitter, fig.alt="A row of eight young black labs, each wearing a different brightly colored collar, sit facing the camera.  There is slight variation among the dogs, in height and body shape. Out of focus landscape is in the background.  The foreground is also out of focus.  Only the dogs are in focus.", out.width="90%"}
 knitr::include_graphics("img/v-litter 2-21.jpg")
 
 ```
