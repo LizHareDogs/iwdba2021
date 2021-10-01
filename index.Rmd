@@ -140,7 +140,7 @@ class: bottom, center
 .pull-left[
 <img style="border-radius: 50%;" 
 src="img/Profile_LH.jpg"
-alt="Photo of L iz Hare with an elderly Golden Retriever and a young Labrador Retriever in harness"
+lt="Photo of L iz Hare with an elderly Golden Retriever and a young Labrador Retriever in harness",
 width="250px"
 />
 
@@ -173,8 +173,9 @@ knitr::include_graphics("img/PV Working Dog Center Logo-tshirt.jpg")
 # Sources for PennVet Working Dog Center Pups
 
 .pull-left[
-- Labrador Retriever breeding program
-    - One litter/year
+- Working Dog Center Detector Dog Breeding Program
+    - Labrador Retrievers
+	- Dutch Shepherds  
 	
 - Breeder donations
     -  Pups from litters with working parents and relatives
@@ -222,7 +223,7 @@ knitr::include_graphics("img/IMG_6611.JPG")
 - Behavior questionnaires
   - BCL (Behavior Checklist) is completed by trainer
   - C-BARQ (Canine Behavioral and Research Questionnaire) is completed by foster
-- Behavior tests withsScoring
+- Behavior tests withs Scoring
   - Engagement
   - Environment
 
@@ -240,7 +241,7 @@ knitr::include_graphics("img/IMG_6611.JPG")
 ``` {r, table describing C-BARQ scoring, results="asis", echo=FALSE}
 Score <- c(0, 1, 2, 3, 4)
 Frequency <- c("Never", "Seldom", "Sometimes", "Usually", "Always")
-Intensity <-  c("None", "Mild", "Moderate", "?", "Extreme")
+Intensity <-  c("None", "Mild", "Moderate", "Moderate to Extreme", "Extreme")
 tabCscore <- data.frame(Score, Frequency, Intensity)
 tabCscoreK <- kableExtra::kbl(tabCscore, caption="Behaviors Rated 0 to 4 on either Frequency or Intensity")
 kableExtra::kable_styling(tabCscoreK, full_width=FALSE)
