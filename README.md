@@ -1,8 +1,7 @@
-# Asseesment of the agreement between 
-fosters and trainers evaluating behavior with the C-BARQ and Behavior Checklist  
+# Assesment of the agreement between fosters and trainers evaluating behavior with the C-BARQ and Behavior Checklist  
 
 This repository contains materials used to produce slides presented 
-at the [International Working Dog Breeding Conference 2021]
+at the International Working Dog Breeding Conference in October, 2021
 (https://www.iwdba.org/wp-content/uploads/2021/10/IWDC-2021-Full-Program-as-at-Oct-7-20219-7.pdf
 
 [Link to Slides](https://lizharedogs.github.io/iwdba2021/#1)
@@ -10,16 +9,19 @@ at the [International Working Dog Breeding Conference 2021]
 
 Authors:
 
-Elizabeth Hare
-Dog Genetics LLC/Penn Vet Working Dog Center
+Elizabeth Hare  
+[Dog Genetics LLC](http://www.doggenetics.com)/
+[Penn Vet Working Dog Center](https://www.vet.upenn.edu/research/centers-laboratories/center/penn-vet-working-dog-center)
 
 Jennifer L Essler
-Penn Vet Working Dog Center
+[Penn Vet Working Dog Center](https://www.vet.upenn.edu/research/centers-laboratories/center/penn-vet-working-dog-center)
 
 James A. Serpell
+[University of Pennsylvania School of Veterinary Medicine](https://www.vet.upenn.edu/people/faculty-clinician-search/JAMESSERPELL)
+
 
 Cynthia M. Otto
-Penn Vet Working Dog Center
+[Penn Vet Working Dog Center](https://www.vet.upenn.edu/research/centers-laboratories/center/penn-vet-working-dog-center)
 
 
 ## Abstract
