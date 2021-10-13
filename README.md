@@ -33,7 +33,9 @@ Working dog programs have an interest in the early identification of puppies who
 
 ## Accessibility
 
-This slide deck was designed to be accessible for screen reader users using 
+This slide deck was designed to be accessible for screen reader users. Each slide loads as one HTML page. Move through the items on the page the same awy you move through the items on a website. Hit PgUp to go to the next slide, PgDn to go to the previous slide. The following link has [keyboard shortcuts for navigating slides](https://bookdown.org/yihui/rmarkdown/xaringan-key.html). 
+
+Slides were created using 
 R Markdown with the [Xaringan](https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwinq7atr8jzAhUkmXIEHbdwBq4QFnoECAMQAQ&url=https%3A%2F%2Fgithub.com%2Fyihui%2Fxaringan&usg=AOvVaw20Wo-xI9FMLQMaUsK9RA7J)
 package by Yihui Xie.  
 
