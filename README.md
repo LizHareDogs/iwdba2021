@@ -16,11 +16,11 @@ Elizabeth Hare
 Jennifer L Essler
 [Penn Vet Working Dog Center](https://www.vet.upenn.edu/research/centers-laboratories/center/penn-vet-working-dog-center)
 
-James A. Serpell
+James A. Serpell  
 [University of Pennsylvania School of Veterinary Medicine](https://www.vet.upenn.edu/people/faculty-clinician-search/JAMESSERPELL)
 
 
-Cynthia M. Otto
+Cynthia M. Otto  
 [Penn Vet Working Dog Center](https://www.vet.upenn.edu/research/centers-laboratories/center/penn-vet-working-dog-center)
 
 
