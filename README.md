@@ -1,8 +1,8 @@
-# Assesment of the agreement between fosters and trainers evaluating behavior with the C-BARQ and Behavior Checklist  
+# Assessment of the agreement between fosters and trainers evaluating behavior with the C-BARQ and Behavior Checklist  
 
 This repository contains materials used to produce slides presented 
-at the International Working Dog Breeding Conference in October, 2021
-(https://www.iwdba.org/wp-content/uploads/2021/10/IWDC-2021-Full-Program-as-at-Oct-7-20219-7.pdf
+at the [International Working Dog Breeding Conference](https://www.iwdba.org/wp-content/uploads/2021/10/IWDC-2021-Full-Program-as-at-Oct-7-20219-7.pdf
+in October 2021.  
 
 [Link to Slides](https://lizharedogs.github.io/iwdba2021/#1)
 
